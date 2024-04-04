@@ -55,7 +55,7 @@
         - witnessUtxo: scriptPubkey & value 
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/e8d32e3c-70f6-4850-b488-19f8a8b94285)
 
-   - Step 2: Sign psbt (https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#signpsbt)
+   - Step 2: Sign psbt ( https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#signpsbt )
      ```bash
      try {
         let res = await window.unisat.signPsbt( "70736274ff01007d....", {
@@ -72,7 +72,7 @@
      } catch (e) {console.log(e)}
      ``` 
 
-   - Step 3: Push psbt (https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#pushpsbt)
+   - Step 3: Push psbt ( https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#pushpsbt )
      ```bash
      try {
         let res = await window.unisat.pushPsbt("70736274ff01007d....");
