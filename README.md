@@ -13,7 +13,7 @@
            index: 1, // output index - 1,
            nonWitnessUtxo: Buffer.from("02000000000...36e0100000000", "hex") // prev transaction hex
      // // If this input was segwit, instead of nonWitnessUtxo,
-     // you would add a witnessUtxo as follows. The scriptPubkey and the value only are needed.
+     // // you would add a witnessUtxo as follows. The scriptPubkey and the value only are needed.
          // witnessUtxo: {
          //   script: Buffer.from(
          //     '76a9148bbc...18d88ac', // ScriptPubKey
