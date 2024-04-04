@@ -10,7 +10,7 @@
 - Xem data tại https://mempool.space/testnet
 - Input: Là các output từ các transaction trước đó. Được xác định bằng một transaction trước đó và chỉ định số lượng Bitcoin được chuyển đi từ output của transaction đó.
    - hash: Id của transaction trước
-     ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/cd159ed4-591e-4555-b26d-687f8bfde9bb)
+     ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/4a0bbcb2-a8e9-473c-932b-14a2316c2f3a)
 
    - index: Vị trí của output ( check ở flow transaction )
      ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/1392e88f-88fe-43ea-9c57-d97363a751b0)
