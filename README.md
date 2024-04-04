@@ -1,13 +1,15 @@
-- Send btc:
-   - Step 1: generate psbt
-   - Step 2: signPsbt
-   - Step 3: pushPsbt 
+- Send btc: Tạo psbt sau đó kí bằng ví.
+
 - Demo:
-   - Step 1: npm start
+   - Xem data tại https://mempool.space/testnet
+   - Step 1: Generate psbt
+     ```bash
+     npm start //start
+     
+     ```
    - Step 2: https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#signpsbt
    - Step 3: https://demo.unisat.io/
  
-- Xem data tại https://mempool.space/testnet
 - Input: Là các output từ các transaction trước đó. Được xác định bằng một transaction trước đó và chỉ định số lượng Bitcoin được chuyển đi từ output của transaction đó.
    - hash: Id của transaction trước
      ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/4a0bbcb2-a8e9-473c-932b-14a2316c2f3a)
