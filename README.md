@@ -1,6 +1,7 @@
 - Send btc: Tạo psbt sau đó kí bằng ví.
 
 - Demo:
+   
    - Step 1: Generate psbt
      ```bash
      // Create psbt
@@ -39,13 +40,18 @@
      // Generated Psbt 
      const updatedPsbtHex = btcPsbt.toHex();
      ```
+
      - View data in https://mempool.space/testnet/
+        
         - hash: Previous tx id
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/4a0bbcb2-a8e9-473c-932b-14a2316c2f3a)
+        
         - index: Output index - 1
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/1392e88f-88fe-43ea-9c57-d97363a751b0)
+        
         - nonWitnessUtxo: Buffer previous transaction hex 
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/3d1b4c52-eb01-4272-b3d2-982954d49005)
+        
         - witnessUtxo: scriptPubkey & value 
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/e8d32e3c-70f6-4850-b488-19f8a8b94285)
 
@@ -65,6 +71,7 @@
      console.log(res)
      } catch (e) {console.log(e)}
      ``` 
+
    - Step 3: Push psbt (https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#pushpsbt)
      ```bash
      try {
