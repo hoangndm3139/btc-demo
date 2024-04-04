@@ -49,8 +49,8 @@ export class BtcPsbt {
         return this;
     }
 
-    updatePsbt(input: TxInput[], outputs: TxOutput[], opreturns: string[]): void {
-        input.forEach((inputItem) => this.addInput(inputItem));
+    updatePsbt(inputs: TxInput[], outputs: TxOutput[], opreturns: string[]): void {
+        inputs.forEach((input) => this.addInput(input));
 
         outputs.forEach((output) => this.addOutput(output));
 

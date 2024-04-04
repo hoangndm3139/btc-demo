@@ -1,6 +1,8 @@
-- Send BTC:
-   - Step 1: Gen psbt in index.js
-   - Step 2: push psbt: https://demo.unisat.io/
-- Send Inscription:
-   - Step 1: signPsbt: https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#signpsbt
-   - Step 2: push psbt: https://demo.unisat.io/
+- Send btc:
+   - Step 1: generate psbt
+   - Step 2: signPsbt
+   - Step 2: pushPsbt 
+- Demo:
+   - Step 1: npm start
+   - Step 2: https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#signpsbt
+   - Step 3: https://demo.unisat.io/
