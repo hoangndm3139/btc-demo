@@ -12,7 +12,8 @@
            hash: "6e7307c...0eddabbd", // prev ix id
            index: 1, // output index - 1,
            nonWitnessUtxo: Buffer.from("02000000000...36e0100000000", "hex") // prev transaction hex
-     // // If this input was segwit, instead of nonWitnessUtxo, you would add a witnessUtxo as follows. The scriptPubkey and the value only are needed.
+     // // If this input was segwit, instead of nonWitnessUtxo,
+     // you would add a witnessUtxo as follows. The scriptPubkey and the value only are needed.
          // witnessUtxo: {
          //   script: Buffer.from(
          //     '76a9148bbc...18d88ac', // ScriptPubKey
@@ -38,7 +39,7 @@
      // Generated Psbt 
      const updatedPsbtHex = btcPsbt.toHex();
      ```
-     - View in https://mempool.space/testnet/
+     - View data in https://mempool.space/testnet/
         - hash: Previous tx id
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/4a0bbcb2-a8e9-473c-932b-14a2316c2f3a)
         - index: Output index - 1
