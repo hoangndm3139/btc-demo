@@ -54,9 +54,7 @@ export class BtcPsbt {
 
         outputs.forEach((output) => this.addOutput(output));
 
-        opreturns.forEach((opreturn) => {
-            this.addOpreturn(opreturn);
-        });
+        opreturns.forEach((opreturn) => this.addOpreturn(opreturn));
     }
 
     toHex(): string {
