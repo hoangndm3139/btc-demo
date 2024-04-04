@@ -1,7 +1,7 @@
 - Send btc:
    - Step 1: generate psbt
    - Step 2: signPsbt
-   - Step 2: pushPsbt 
+   - Step 3: pushPsbt 
 - Demo:
    - Step 1: npm start
    - Step 2: https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#signpsbt
