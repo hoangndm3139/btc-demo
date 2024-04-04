@@ -39,11 +39,11 @@
      const updatedPsbtHex = btcPsbt.toHex();
      ```
      - View in https://mempool.space/testnet/
-        - hash: Prev tx id
+        - hash: Previous tx id
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/4a0bbcb2-a8e9-473c-932b-14a2316c2f3a)
         - index: Output index - 1
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/1392e88f-88fe-43ea-9c57-d97363a751b0)
-        - nonWitnessUtxo: Buffer prev transaction hex 
+        - nonWitnessUtxo: Buffer previous transaction hex 
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/3d1b4c52-eb01-4272-b3d2-982954d49005)
         - witnessUtxo: scriptPubkey & value 
           ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/e8d32e3c-70f6-4850-b488-19f8a8b94285)
@@ -58,16 +58,7 @@
                   index: 0,
                   address: "tb1q8h8....mjxzny",
                 },
-                {
-                  index: 1,
-                  publicKey: "tb1q8h8....mjxzny",
-                  sighashTypes: [1]
-                },
-                {
-                  index: 2,
-                  publicKey: "02062...8779693f",
-                }
-              ]
+              ]  
            }
         );
      console.log(res)
@@ -84,4 +75,4 @@
      ```
 
 - Debug:
-     - Decode transaction: https://live.blockcypher.com/btc/decodetx/
+     - Decode transaction hex: https://live.blockcypher.com/btc/decodetx/
