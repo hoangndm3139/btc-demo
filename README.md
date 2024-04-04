@@ -12,7 +12,7 @@
         {
            hash: "6e7307c...0eddabbd", // prev ix id
            index: 1, // output index - 1,
-           nonWitnessUtxo: Buffer.from("02000000000...36e0100000000", "hex") // prev transaction hex
+           nonWitnessUtxo: Buffer.from("02000000000...36e0100000000", "hex") // prev tx hex
      // // If this input was segwit, instead of nonWitnessUtxo,
      // // you would add a witnessUtxo as follows. The scriptPubkey and the value only are needed.
          // witnessUtxo: {
