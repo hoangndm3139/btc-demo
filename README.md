@@ -51,28 +51,28 @@
 
    - Step 2: Sign psbt (https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#signpsbt)
      ```bash
-      try {
-           let res = await window.unisat.signPsbt( "70736274ff01007d....", {
-              autoFinalized:false,
-              toSignInputs:[
-                {
-                  index: 0,
-                  address: "tb1q8h8....mjxzny",
-                },
-              ]  
-           }
-        );
+     try {
+        let res = await window.unisat.signPsbt( "70736274ff01007d....", {
+           autoFinalized:false,
+           toSignInputs:[
+              {
+                 index: 0,
+                 address: "tb1q8h8....mjxzny",
+              },
+           ]  
+        }
+     );
      console.log(res)
      } catch (e) {console.log(e)}
      ``` 
    - Step 3: Push psbt (https://docs.unisat.io/dev/unisat-developer-service/unisat-wallet#pushpsbt)
      ```bash
-         try {
-           let res = await window.unisat.pushPsbt("70736274ff01007d....");
-           console.log(res)
-         } catch (e) {
-              console.log(e);
-         }
+     try {
+        let res = await window.unisat.pushPsbt("70736274ff01007d....");
+        console.log(res)
+     } catch (e) {
+        console.log(e);
+     }
      ```
 
 - Debug:
