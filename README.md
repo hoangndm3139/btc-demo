@@ -12,7 +12,7 @@
    - hash: Id của transaction trước
      ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/4a0bbcb2-a8e9-473c-932b-14a2316c2f3a)
 
-   - index: Vị trí của output ( check ở flow transaction )
+   - index: Vị trí của output - 1
      ![image](https://github.com/hoangndm3139/btc-demo/assets/67066353/1392e88f-88fe-43ea-9c57-d97363a751b0)
 
    - nonWitnessUtxo: Buffer được tạo ra từ Transaction hex ( check ở details transaction )
